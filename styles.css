@@ -1,0 +1,269 @@
+
+
+* {  
+    font-family: 'Segoe UI', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+header{
+    background-color: #3a3a3a;
+}
+
+.header{
+    height: 67px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.img_perfil_peq{
+   border-radius: 50%; 
+}
+
+.header nav a{
+    color: #ffffff;
+    padding-left: 21px;
+}
+
+/*Fim do Header*/
+
+.section__portada{
+    width: 100%;
+    height: 377px;
+}
+
+.foto__portada{
+    width: 100%;
+    height: 100%;
+}
+
+.section__container{
+    
+    margin-bottom: 2rem;
+    position: relative;
+    display: flex;
+}
+
+.img_ppal{
+    position: absolute;
+    left: 17%;
+    top: -32%;
+}
+
+.perfil{
+    border-radius: 50%;
+    box-shadow: 0px 3px 6px #00000029;
+}
+
+.rs1, .rs2 , .rs3{
+    border-radius: 50%;
+    border: 1px solid #707070;
+    margin-left: 21px;
+}
+
+.red_social{
+    position:absolute;
+    top: 85%;
+    left: 10%;
+}
+
+.section__nome{
+    line-height: 73px;
+    font-size: 55px;
+    color: #707070;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+.section__apresentacao{
+    margin-left: 40%;
+}
+
+.section__professao{
+    font: italic;
+    font-size: 34px;
+    color: #707070;
+    font-weight: 300;
+    line-height: 46px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.section__ola{
+    font-size: 34px;
+    line-height: 46px;
+    font-weight: bold;
+    color: #707070;
+    margin-top: 34px;
+    margin-bottom: 21px;
+}
+
+.text_description{
+    width: 518px;
+    color: #707070;
+    font-size: 1.313rem;
+    line-height: 33px;
+}
+
+
+
+.container__formacao{
+    width: 100%;
+    background-color: #DEDEDE;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formacao_title{
+    width: 844px;
+    margin-top: 2.125rem;
+    font-size: 3.438rem;
+    color: #707070;
+    font-family: 300;
+    line-height: 73px;
+}
+
+.articles{
+    width: 844px;
+    margin-top: 2.25rem;
+    position: relative;
+    margin-bottom: 45px;
+    margin-left: 30px;
+    
+}
+
+.articles__card{
+    margin-top: 21px;
+    
+}
+
+.articles__card::before{
+    content: "";
+    border: 4px solid #000000;
+    position: absolute;
+    left: -23px;
+    height: 66px;
+    border-radius: 5px;
+}
+
+.articles__ano{
+    font-size: 0.813rem;
+    color: #707070;
+    font-weight: normal;
+    line-height: 25px;
+    text-transform: uppercase;
+}
+
+.articles__title{
+    font-size: 1.313rem;
+    font-weight: bold;
+    color: #707070;
+}
+
+.section__exp{
+    width: 100%;
+    background-color: #434343;
+    padding: 2.125rem 0 2.813rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section__exp_tittle{
+    font-size: 3.438rem;
+    font-weight: normal;
+    line-height: 73px;
+    color: #999;
+    width: 844px;
+}
+
+.container__exp{
+    margin-top: 2.25rem;
+    width: 844px;
+    position: relative;
+    margin-left: 30px;
+}
+
+.articles__exp{
+    margin-top: 21px;
+}
+
+.articles__exp__ano{
+    font-size: 0.813rem;
+    color: #999;
+    font-weight: normal;
+    line-height: 25px;
+    text-transform: uppercase;
+}
+
+.articles__exp__tittle{
+    font-size: 1.313rem;
+    font-weight: bold;
+    color: #999;
+}
+
+.articles__exp::before{
+    content: "";
+    border: 4px solid #fff;
+    position: absolute;
+    left: -23px;
+    height: 66px;
+    border-radius: 5px;
+}
+
+.section__projeto{
+    width: 100%;
+    background-color: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section__projeto__title{
+    padding-top: 21px;
+    font-size: 3.438rem;
+    line-height: 73px;
+    font-weight: normal;
+    color: #707070;
+    width: 865px;
+}
+
+.container__projeto{
+    margin-top: 34px;
+    display: flex;
+    flex-direction: row;
+    width: 865px;
+    justify-content: flex-start;
+    margin-bottom: 55px;
+}
+
+.container__projeto__card{
+    width: 260px;
+    height: 335px;
+    margin-right: 38px;
+    background-color: #fff;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 12px 19px 12px;
+    align-content: flex-start;
+}
+
+.container__projeto__card__img{
+    width: 231px;
+    height: 129px;
+}
+
+.container__projeto__tittle{
+    margin: -65px;
+    font-size: 1.313rem;
+    color: #707070;
+    font-weight: bold;
+    text-align: left;
+}
