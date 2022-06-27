@@ -249,10 +249,9 @@ header{
     border-radius: 5px;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-between;
     padding: 16px 12px 19px 12px;
-    align-content: flex-start;
 }
 
 .container__projeto__card__img{
@@ -261,9 +260,22 @@ header{
 }
 
 .container__projeto__tittle{
-    margin: -65px;
     font-size: 1.313rem;
     color: #707070;
     font-weight: bold;
     text-align: left;
+    margin-top: 0;
+}
+
+.cotainer__projeto__text{
+    font-size: 0.813rem;
+    color: #707070;
+    line-height: 17px;
+    font-weight: normal;
+}
+
+.container__butto{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
