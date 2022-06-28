@@ -93,7 +93,7 @@ header {
   justify-content: space-around;
 }
 
-.red_social > div {
+.red_social>div {
   text-align: center;
   font-size: 0.5rem;
   text-transform: uppercase;
@@ -109,6 +109,7 @@ header {
   font-weight: bold;
   margin-bottom: 0px;
 }
+
 .section__apresentacao {
   margin-left: 40%;
 }
@@ -321,7 +322,7 @@ header {
   font-weight: bold;
   transition: all 0.3s ease-in-out;
   text-decoration: none;
-  display:flex;
+  display: flex;
   justify-content: center;
   align-items: center;
 }
@@ -361,7 +362,7 @@ header {
   margin: 43px 10px 0 0;
 }
 
-.contatoContainer__informacao > p {
+.contatoContainer__informacao>p {
   font-size: 1.313rem;
   color: #707070;
   line-height: 28px;
@@ -391,7 +392,7 @@ header {
   cursor: pointer;
 }
 
-.contatoContainer__redesSociais-icones > p {
+.contatoContainer__redesSociais-icones>p {
   font-size: 0.5rem;
   color: #707070;
   text-align: center;
@@ -455,4 +456,65 @@ form input[type="submit"] {
 form input[type="submit"]:hover {
   background-color: #929191;
   transition: all 0.3s ease-in-out;
+}
+
+@media screen and (min-width: 375px) {
+
+  .header {
+    width: 100%;
+    flex-direction: column;
+    padding-top: 1rem;
+    height: 100%;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  nav a {
+    margin: 0.5rem;
+
+  }
+
+  .foto__portada, .section__portada{
+    height: auto;
+  }
+
+  .section__container{
+    flex-direction: column;
+  }
+
+  .img_ppal{
+    display: none;
+  }
+
+  .section__nome{
+    font-size: 2.5rem;
+    text-align: center;
+  }
+
+  .text_description{
+    font-size: 1.125rem;
+    line-height: 28px;
+    width: 100%;
+  }
+
+  .section__apresentacao{
+    margin-left: 0;
+    width: 100%;
+  }
+
+  .section__container-perfil{
+    padding: 2rem;
+  }
+
+  .section__professao{
+    font-size: 1.5rem;
+    text-align: center;
+    line-height: 28px;
+  }
+
 }
