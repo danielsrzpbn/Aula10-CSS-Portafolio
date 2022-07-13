@@ -18,7 +18,6 @@ header {
 
 .header {
   margin: 0 auto;
-  width: 1200px;
   height: 67px;
   display: flex;
   align-items: center;
@@ -37,7 +36,6 @@ header {
 
 .section__portada {
   width: 100%;
-  height: 377px;
 }
 
 .foto__portada {
@@ -50,7 +48,6 @@ header {
   margin-bottom: 2rem;
   position: relative;
   display: flex;
-  flex-direction: row;
   justify-content: center;
 }
 
@@ -93,7 +90,7 @@ header {
   justify-content: space-around;
 }
 
-.red_social>div {
+.red_social > div {
   text-align: center;
   font-size: 0.5rem;
   text-transform: uppercase;
@@ -104,22 +101,15 @@ header {
 
 .section__nome {
   line-height: 73px;
-  font-size: 55px;
   color: #707070;
   font-weight: bold;
   margin-bottom: 0px;
 }
 
-.section__apresentacao {
-  margin-left: 40%;
-}
-
 .section__professao {
   font-style: italic;
-  font-size: 34px;
   color: #707070;
   font-weight: 300;
-  line-height: 46px;
   margin-top: 0px;
   margin-bottom: 0px;
   font-weight: 300;
@@ -135,32 +125,23 @@ header {
 }
 
 .text_description {
-  width: 518px;
   color: #707070;
-  font-size: 1.313rem;
-  line-height: 33px;
 }
 
 .container__formacao {
-  width: 100%;
   background-color: #dedede;
   display: flex;
-  flex-direction: column;
   align-items: center;
 }
 
 .formacao_title {
-  width: 844px;
   margin-top: 2.125rem;
-  font-size: 3.438rem;
   color: #707070;
   font-family: 300;
   line-height: 73px;
 }
 
 .articles {
-  width: 844px;
-  margin-top: 2.25rem;
   position: relative;
   margin-bottom: 45px;
   margin-left: 30px;
@@ -174,7 +155,6 @@ header {
   content: "";
   border: 4px solid #000000;
   position: absolute;
-  left: -23px;
   height: 66px;
   border-radius: 5px;
 }
@@ -196,23 +176,19 @@ header {
 .section__exp {
   width: 100%;
   background-color: #434343;
-  padding: 2.125rem 0 2.813rem 0;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
 .section__exp_tittle {
-  font-size: 3.438rem;
   font-weight: normal;
-  line-height: 73px;
   color: #999;
   width: 844px;
 }
 
 .container__exp {
   margin-top: 2.25rem;
-  width: 844px;
   position: relative;
   margin-left: 30px;
 }
@@ -254,26 +230,20 @@ header {
 
 .section__projeto__title {
   padding-top: 21px;
-  font-size: 3.438rem;
   line-height: 73px;
   font-weight: normal;
   color: #707070;
-  width: 865px;
 }
 
 .container__projeto {
   margin-top: 34px;
   display: flex;
-  flex-direction: row;
-  width: 865px;
   justify-content: flex-start;
   margin-bottom: 55px;
 }
 
 .container__projeto__card {
-  width: 260px;
   height: 335px;
-  margin-right: 38px;
   background-color: #fff;
   box-shadow: 0px 3px 6px #00000029;
   border-radius: 5px;
@@ -281,11 +251,9 @@ header {
   flex-direction: column;
   align-items: flex-start;
   justify-content: space-between;
-  padding: 16px 12px 19px 12px;
 }
 
 .container__projeto__card__img {
-  width: 231px;
   height: 129px;
 }
 
@@ -338,31 +306,21 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 609px;
 }
 
 .sectionContato__tittle {
-  font-size: 3.438rem;
   color: #ffffff;
   font-weight: 300;
   line-height: 73px;
-  width: 865px;
-  padding-top: 2.125rem;
 }
 
 .contatoContainer {
-  width: 900px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
 
-.contatoContainer__informacao {
-  width: 50%;
-  margin: 43px 10px 0 0;
-}
-
-.contatoContainer__informacao>p {
+.contatoContainer__informacao > p {
   font-size: 1.313rem;
   color: #707070;
   line-height: 28px;
@@ -388,11 +346,10 @@ header {
 }
 
 .contatoContainer__redesSociais-icones {
-  margin-right: 21px;
   cursor: pointer;
 }
 
-.contatoContainer__redesSociais-icones>p {
+.contatoContainer__redesSociais-icones > p {
   font-size: 0.5rem;
   color: #707070;
   text-align: center;
@@ -439,7 +396,6 @@ form textarea {
 }
 
 form input[type="submit"] {
-  width: 122px;
   border: none;
   background-color: #585858;
   border-radius: 5px;
@@ -459,7 +415,6 @@ form input[type="submit"]:hover {
 }
 
 @media screen and (min-width: 375px) {
-
   .header {
     width: 100%;
     flex-direction: column;
@@ -476,45 +431,296 @@ form input[type="submit"]:hover {
 
   nav a {
     margin: 0.5rem;
-
   }
 
-  .foto__portada, .section__portada{
+  .foto__portada,
+  .section__portada {
     height: auto;
   }
 
-  .section__container{
+  .section__container {
     flex-direction: column;
   }
 
-  .img_ppal{
+  .img_ppal {
     display: none;
   }
 
-  .section__nome{
+  .section__apresentacao {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .section__nome {
     font-size: 2.5rem;
     text-align: center;
   }
 
-  .text_description{
+  .text_description {
     font-size: 1.125rem;
     line-height: 28px;
     width: 100%;
   }
 
-  .section__apresentacao{
-    margin-left: 0;
-    width: 100%;
-  }
-
-  .section__container-perfil{
+  .section__container-perfil {
     padding: 2rem;
   }
 
-  .section__professao{
+  .section__professao {
     font-size: 1.5rem;
     text-align: center;
     line-height: 28px;
   }
 
+  .container__formacao {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .formacao_title {
+    width: 100%;
+    font-size: 2.5rem;
+    text-align: center;
+  }
+
+  .articles {
+    width: 100%;
+    padding: 2rem;
+    margin-top: 0;
+  }
+
+  .articles__card::before {
+    left: 11px;
+  }
+
+  .section__exp {
+    width: 100%;
+    padding: 2rem;
+  }
+
+  .section__exp_tittle {
+    width: 100%;
+    font-size: 2.5rem;
+    line-height: 45px;
+  }
+
+  .container__exp {
+    width: 100%;
+  }
+
+  .section__projeto {
+    padding: 2rem;
+  }
+
+  .section__projeto__title {
+    width: 100%;
+    padding: 0;
+    text-align: center;
+    font-size: 2.5rem;
+  }
+
+  .container__projeto {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .container__projeto__card {
+    width: 100%;
+    margin: 0 0 2rem 0;
+    padding: 1.5rem;
+  }
+
+  .container__projeto__card__img {
+    width: 100%;
+  }
+
+  .sectionContato {
+    height: 100%;
+    padding: 2rem;
+  }
+
+  .sectionContato__tittle {
+    width: 100%;
+    font-size: 2.5rem;
+    text-align: center;
+    padding-top: 0;
+  }
+
+  .contatoContainer {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contatoContainer__informacao {
+    width: 100%;
+    padding: 2rem;
+    font-size: 1.125rem;
+    margin: 0;
+  }
+
+  .contatoContainer__redesSociais {
+    justify-content: space-around;
+  }
+
+  .contatoContainer__redesSociais-icones {
+    margin-right: 0;
+  }
+
+  .contatoContainer__form {
+    padding-top: 2rem;
+    width: 100%;
+  }
+
+  .form input[type="submit"] {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .header {
+    flex-direction: row;
+    padding: 1rem;
+  }
+
+  .section__portada {
+    height: 500px;
+  }
+
+  .foto__portada {
+    height: 100%;
+  }
+
+  .section__container {
+    flex-direction: row;
+  }
+
+  .img_ppal {
+    display: block;
+  }
+
+  .section__apresentacao {
+    margin-left: 40%;
+  }
+
+  .section__nome {
+    font-size: 55px;
+    text-align: start;
+  }
+
+  .text_description {
+    width: 518px;
+    font-size: 1.313rem;
+    line-height: 33px;
+  }
+
+  .section__container-perfil {
+    padding: 0;
+  }
+
+  .section__professao {
+    font-size: 34px;
+    line-height: 46px;
+    text-align: start;
+  }
+
+  .container__formacao {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .formacao_title {
+    width: 844px;
+    font-size: 3.438rem;
+    text-align: center;
+    text-align: start;
+  }
+
+  .articles {
+    width: 844px;
+    padding: 0;
+    margin-top: 2.25rem;
+  }
+
+  .articles__card::before {
+    left: -23px;
+  }
+
+  .section__exp {
+    padding: 2.125rem 0 2.813rem 0;
+  }
+
+  .section__exp_tittle {
+    width: 844px;
+    font-size: 3.438rem;
+    line-height: 73px;
+  }
+
+  .container__exp {
+    width: 844px;
+  }
+
+  .section__projeto {
+    padding: 0;
+  }
+
+  .section__projeto__title {
+    width: 865px;
+    text-align: start;
+    font-size: 3.438rem;
+  }
+
+  .container__projeto {
+    width: 900px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+  }
+
+  .container__projeto__card {
+    width: 260px;
+    margin-right: 38px;
+    padding: 16px 12px 19px 12px;
+  }
+
+  .sectionContato {
+    height: 609px;
+    padding: 0;
+  }
+
+  .sectionContato__tittle {
+    width: 865px;
+    font-size: 3.438rem;
+    text-align: start;
+    padding-top: 2.125rem;
+  }
+
+  .contatoContainer {
+    width: 900px;
+    flex-direction: row;
+  }
+
+  .contatoContainer__informacao {
+    width: 50%;
+    padding: 0;
+    margin: 43px 10px 0 0;
+  }
+
+  .contatoContainer__redesSociais-icones {
+    margin-right: 21px;
+  }
+
+  .contatoContainer__form {
+    padding: 0;
+    width: 50%;
+  }
+
+  .contatoContainer__redesSociais {
+    justify-content: space-evenly;
+  }
+
+  .form input[type="submit"] {
+    width: 122px;
+  }
 }
